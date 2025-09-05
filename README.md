@@ -1,3 +1,38 @@
+# Recipe-Finder
+ A simple recipe search application built with React that uses TheMealDB API
+ to fetch and display recipes. Users can search for meals by ingredient, view meal details, ingredients, measurements, and step-by-step cooking instructions.
+
+# Functionality
+ Search Recipes by Ingredient – Enter any ingredient to find related meals.
+
+ Recipe Thumbnails – Display images of meals in the search results.
+
+ Detailed Recipe View – Click on a recipe to see:
+
+Meal image
+
+Name, category, and cuisine (area)
+
+Ingredients + measurements
+
+Step-by-step cooking instructions
+
+Responsive UI – Works on desktop and mobile.
+
+#Folderstructure
+src/
+├── components/
+│   ├── SearchBar.jsx
+│   ├── RecipeCard.jsx
+│   └── ReceipieDetails.jsx
+├── App.jsx
+├── main.jsx
+├── index.css
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
